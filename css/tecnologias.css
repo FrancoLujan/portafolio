@@ -1,0 +1,42 @@
+.tecnologias{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+
+}
+.tecnologias__titulo{
+    font-size: 31px;
+    color: white;
+    margin-bottom: 25px;
+    font-family: 'Rubik Dirt', cursive;
+}
+.tecnologias__caja{
+    background-color: var(--tecnologias);
+    box-shadow: inset 0 0 1320px black, 0 0 15px white; 
+    width: 26rem;
+    height: 20rem;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tecnologias__caja__imagen{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5.5px;
+}
+.tecnologias__caja__imagen img{
+    transform: scale(150%);
+}
+.tecnologias__caja__imagen img{
+    filter: drop-shadow(0.2px 0.5px 1.2px white);
+}
+.tecnologias__caja__imagen img:hover{
+    filter: drop-shadow( 0px 0px 0.5px white);
+    transform: scale(172%);
+
+}

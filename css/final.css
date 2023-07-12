@@ -1,0 +1,20 @@
+.final{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.final__titulo{
+    color: white;
+    font-size: 31px;
+    margin-bottom: 20px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.final__contactos:hover{
+    transform: scale(110%);
+
+}

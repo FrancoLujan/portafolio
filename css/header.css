@@ -1,0 +1,31 @@
+.presentacion{
+   
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion__imagen{
+    width: 250px;
+    border-radius: 105%;
+    margin-left: 55px;
+}
+.presentacion__parrafo{
+    width: 450px;
+    word-wrap: break-word;
+    font-size: 29px;
+    color: white;
+    margin-left:25px ;
+    font-family: 'Agdasima', sans-serif;
+}
+
+@media screen and (max-width:700px) {
+    .presentacion{
+        flex-direction: column;
+    }
+    .presentacion__parrafo{
+        margin-top: 15px;
+    }
+    
+}

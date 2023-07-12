@@ -1,0 +1,29 @@
+:root {
+  --fondo: rgb(27, 27, 27);
+  --seccion_tecnologia: rgb(27, 27, 62);
+  --tecnologias: rgb(68, 50, 50);
+  --proyectos: rgb(27, 25, 82);
+  --final: rgb(27, 25, 102);
+
+}
+
+body {
+  background-image: linear-gradient(
+    var(--fondo),
+    var(--seccion_tecnologia),
+    var(--proyectos)
+
+  );
+  box-shadow: inset 0 0 1500px black
+}
+body::-webkit-scrollbar{
+    width:18px;
+    background-color: var(--seccion_tecnologia);
+}
+body::-webkit-scrollbar-thumb{
+     background-color: transparent;
+     height: 1px;
+     border-radius: 100px;
+     border: 0.2px solid white;
+     box-shadow: inset 0 0 5px white;
+}
