@@ -1,7 +1,7 @@
 const parrafo = document.querySelector("[data-texto]");
 
 const texto =
-  "Hola mi nombre es Franco Lujan, soy estudiante de ing.sistemas y desarrollador junior en el area de  front-end.";
+  "Hola mi nombre es Franco Lujan, soy estudiante de ing.sistemas y desarrollador front-end.";
 let i = 0
 
   function escribir(){
@@ -12,4 +12,4 @@ let i = 0
     }
   }
 
-let tiempo = setInterval(escribir, 50)
+let tiempo = setInterval(escribir, 70)
