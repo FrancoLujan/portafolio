@@ -17,7 +17,7 @@ body {
   box-shadow: inset 0 0 1500px black
 }
 body::-webkit-scrollbar{
-    width:18px;
+    width:15px;
     background-color: var(--seccion_tecnologia);
 }
 body::-webkit-scrollbar-thumb{
@@ -26,4 +26,11 @@ body::-webkit-scrollbar-thumb{
      border-radius: 100px;
      border: 0.2px solid white;
      box-shadow: inset 0 0 5px white;
+}
+
+@media screen and (max-width:700px) {
+  body::-webkit-scrollbar{
+    width:2px;
+  }
+  
 }

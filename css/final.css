@@ -1,5 +1,4 @@
 .final{
-    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,4 +16,16 @@
 .final__contactos:hover{
     transform: scale(110%);
 
+}
+
+
+@media screen and (max-width:700px) {
+    .final{
+        justify-content: start;
+    
+    }
+    .final__titulo{
+        margin-bottom: 15px;
+    }
+    
 }

@@ -1,5 +1,4 @@
 .proyectos {
-
   height: max-content;
   display: flex;
   justify-content: center;
@@ -12,7 +11,7 @@
   color: white;
   font-size: 31px;
   margin: 15px;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: "Rubik Dirt", cursive;
 }
 .proyectos__caja {
   width: 58rem;
@@ -38,25 +37,19 @@
   width: 450px;
 }
 
-.proyectos__caja__img:hover{
-    box-shadow: none;
-
-
+.proyectos__caja__img:hover {
+  box-shadow: none;
 }
 .proyectos__caja__img a:hover {
   transform: scale(110%);
 }
 
+@media screen and (max-width: 700px) {
 
-@media screen and (max-width:700px) {
-    .proyectos__caja{
-        width: 30rem;
-        flex-direction: column;
-
-    }
-    .proyectos__caja__img{
-        margin: 15px;
-    }
-
-    
+  .proyectos__caja{
+    width: 100vw;
+  }
+  .proyectos__caja__img__imagen{
+    width: 95vw;
+  }
 }

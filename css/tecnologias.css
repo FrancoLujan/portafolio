@@ -40,3 +40,10 @@
     transform: scale(172%);
 
 }
+
+@media screen and (max-width:700px){
+    .tecnologias__caja{
+        width: 90vw;
+    }
+    
+}
